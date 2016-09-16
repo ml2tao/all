@@ -1,0 +1,88 @@
+<link rel="stylesheet" type="text/css" href="<%=staticPrefix%>/plugins/c9.ide.layout.classic/loading-flat.css" />
+<div id="loadingcontainer" class="<%-: theme + (isDark ? " dark" : "") %>">
+    <div id="loadingide">
+        <div class="cool-message"></div>
+        <div class="status" style="display:none"><div class="spinner"></div></div>
+        
+        <div id="content" class="loading-progress">
+        </div>
+        <div class="footer">
+            <!--<a href="">Documentation</a> | -->
+            <!--<a href=>Server Status</a> | -->
+            <!--<a href="">Support</a>-->
+        </div>
+    </div>
+</div>
+<script>
+    var loadingIde = document.querySelector("#loadingide");
+    document.body.className = "loading " + loadingIde.className;
+
+    var messages = [
+        "通过分享您的工作空间地址分享您的代码.",
+        "在不同浏览器中测试您的代码",
+        "每一个工作空间都是一个Docker容器",
+        "在终端中运行 'dpkg -l' 查看所有被安装的插件",
+        "记住在8080、8081或8082端口运行您的程序",
+        "使用协作窗口进行协同工作",
+        "这里比任何地方都更好",
+        "祝你写代码愉快",
+        "我们会保存您的所有操作状态",
+        "可以使用VIM编辑器",
+        "这个IDE非常先进"
+    ];
+    
+    var mac_keybindings = [
+        "按下 Ctrl-Option-Right 选择下一个文本",
+        "按下 Cmd-. 可以查看所有快捷键",
+        "按下 Option-Cmd-R 更改变量名",
+        "按下 Option-W 关闭当前标签",
+        "按下 Cmd-D 删除当前行",
+        "按下 Option-Tab 移到下一个标签",
+        "按下 Option-Shift-T 打开刚刚关闭的标签",
+        "按下 Option-T 打开一个终端",
+        "按下 Cmd-E 搜索文件",
+        "按下 Cmd-Shift-E 搜索函数",
+        "按下 Option-S 在终端和编辑器之间进行切换",
+    ];
+    
+    var win_keybindings = [
+        "按下 Ctrl-Alt-Right 选择下一个文本",
+        "按下 Ctrl-. 可以查看所有快捷键",
+        "按下 Alt-Ctrl-R 更改变量名",
+        "按下 Alt-W 关闭当前标签",
+        "按下 Ctrl-D 删除当前行",
+        "按下 Alt-Tab 移到下一个标签",
+        "按下 Alt-Shift-T 打开刚刚关闭的标签",
+        "按下 Alt-T 打开一个终端",
+        "按下 Ctrl-E 搜索文件",
+        "按下 Ctrl-Shift-E 搜索函数",
+        "按下 Alt-S 在终端和编辑器之间进行切换",
+    ];
+    
+    var isMac = (navigator.platform == "MacIntel" || navigator.platform == "Macintosh" || navigator.platform == "MacPPC");
+    var platform_keybindings = isMac ? mac_keybindings : win_keybindings;
+    messages = messages.concat(platform_keybindings);
+    
+    var idx = Math.floor(Math.random() * messages.length);
+    if (idx == messages.length) idx = messages.length - 1;
+    var msg = messages[idx];
+    
+    if (~location.hash.indexOf("create")) {
+        msg = "创建你的工作空间";
+        location.hash = location.hash.replace(/&?create/, "");
+    }
+    
+    document.querySelector("#loadingide .cool-message").innerHTML = msg;
+
+    setTimeout(function(){
+        var s = document.querySelector("#loadingide .status");
+        if (s) s.style.display = "block";
+    }, 2000);
+    
+    window.hideLoader = function(){
+        var loader = document.getElementById("loadingcontainer");
+        loader.parentNode.removeChild(loader);
+        
+        document.body.className = document.body.className.replace("loading " + loadingIde.className, "");
+    }
+</script>

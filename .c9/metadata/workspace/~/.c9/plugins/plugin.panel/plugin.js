@@ -1,0 +1,1 @@
+{"filter":false,"title":"plugin.js","tooltip":"~/.c9/plugins/plugin.panel/plugin.js","ace":{},"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1472572141266,"hash":"6566569db099d61d1b69113187bd37fbe760e48b"}

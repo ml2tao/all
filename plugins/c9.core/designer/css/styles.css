@@ -1,0 +1,136 @@
+.highlight-elem {
+	background: #b0dbec!important;
+}
+
+.element-box {
+	z-index: 100!important;	
+}
+
+.element-box * {
+	z-index: -1;
+}
+
+.control-box {
+	width: 100%;
+	border: 1px solid #0894ec;
+	position: absolute;
+	z-index: 300;
+}
+
+.controls-bar {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 400;
+}
+
+.bar-radius {
+	width: 10px;
+	height: 10px;
+	background: rgb(255, 255, 255);
+	margin-left: -5px;
+	top: -5px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	border: 1px solid #59c7f9;
+	cursor: n-resize;
+}
+
+.bar-radius.top-left {
+	left: 0px;
+	cursor: nw-resize;
+}
+
+.bar-radius.mid-left {
+	left: 0px;
+	top: 50%;
+	margin-top: -5px;
+	cursor: w-resize;
+}
+
+.bar-radius.bottom-left {
+	left: 0px;
+	top: 100%;
+	margin-top: -5px;
+	cursor: sw-resize;
+}
+
+.bar-radius.top-right {
+	left: 100%;
+	cursor: ne-resize;
+}
+
+.bar-radius.mid-right {
+	left: 100%;
+	top: 50%;
+	margin-top: -5px;
+	cursor: e-resize;
+}
+
+.bar-radius.bottom-right {
+	left: 100%;
+	top: 100%;
+	margin-top: -5px;
+	cursor: se-resize;
+}
+
+.bar-radius.bottom-mid {
+	right: 0px;
+	top: 100%;
+	margin-top: -5px;
+	cursor: s-resize;
+}
+
+.xyruler {
+	display: none;
+	z-index: 65535;
+}
+
+.xruler {
+	border-top: 1px dotted #0088cc;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -1px;
+}
+
+.xruler-25 {
+	border-top: 1px dotted #0088cc;
+	width: 100%;
+	position: absolute;
+	top: 25%;
+	margin-top: -1px;	
+}
+
+.xruler-75 {
+	border-top: 1px dotted #0088cc;
+	width: 100%;
+	position: absolute;
+	top: 75%;
+	margin-top: -1px;	
+}
+
+.yruler {
+	border-left: 1px dotted #0088cc;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -1px;
+}
+
+.yruler-25 {
+	border-left: 1px dotted #0088cc;
+	height: 100%;
+	position: absolute;
+	left: 25%;
+	margin-left: -1px;
+}
+
+.yruler-75 {
+	border-left: 1px dotted #0088cc;
+	height: 100%;
+	position: absolute;
+	left: 75%;
+	margin-left: -1px;
+}

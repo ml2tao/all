@@ -1,0 +1,32 @@
+<a:application xmlns:a="http://ajax.org/2005/aml">
+    <a:window
+      id        = "aboutDialog"
+      icon      = ""
+      kbclose   = "true"
+      center    = "true"
+      width     = "512"
+      skinset   = "help-skin"
+      buttons   = "close"
+      skin      = "win-help-about"
+      class     = "aboutDialogBox">
+        <div class="aboutImage">
+            <div id="c9Version" textselect="true"><?lm
+                Version {cloud9config.version}
+            ?></div>
+             <!-- <div class="c9Legal">
+            <p><a href="http://www.bettercallsaul.com/">Click here for legal notices.</p>
+            </div> -->
+            <div class="c9StaffHeader">
+                <!--<p>Gospel基于Cloud9</p>-->
+            </div>
+            <div class="c9Staff">
+                <p textselect="true">
+                    Gospel基于Cloud9
+                </p>
+            </div>
+            <div class="c9Copyright">
+                <p>&#169; 2016 Gospel Inc. All rights reserved</p>
+            </div>
+        </div>
+    </a:window>
+</a:application>

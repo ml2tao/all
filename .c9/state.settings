@@ -1,0 +1,318 @@
+{
+    "ace": {
+        "search": {
+            "@backwards": "false",
+            "@highlightmatches": "true",
+            "@matchcase": "false",
+            "@preservecase": "false",
+            "@regex": "false",
+            "@wholeword": "false",
+            "@wraparound": "true"
+        }
+    },
+    "breakpoints": {
+        "json()": []
+    },
+    "collab": {
+        "panel": {
+            "chat": {
+                "@closed": false
+            },
+            "notifications": {
+                "@closed": false
+            }
+        }
+    },
+    "console": {
+        "@expanded": false,
+        "@height": 424,
+        "@maximized": false,
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "searchResults"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "searchResults",
+                    "path": "/.c9/searchresults",
+                    "className": [
+                        "searchResults",
+                        "changed"
+                    ],
+                    "document": {
+                        "changed": true,
+                        "meta": {
+                            "searchResults": true,
+                            "ignoreSave": true,
+                            "newfile": true,
+                            "timestamp": 1473992686813
+                        },
+                        "filter": true,
+                        "title": "searchresults",
+                        "tooltip": "/.c9/searchresults",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@autosave": 0,
+        "@flat-dark": false,
+        "@git": 1,
+        "@go_completion": 0,
+        "@plugin-manager": 1,
+        "@plugins": false,
+        "@sdk": true,
+        "@test": 0
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@ace.repl": 1,
+            "@acestatus": 1,
+            "@datagrid": 1,
+            "@divider": 5,
+            "@document": 2,
+            "@form": 5,
+            "@htmldocument": 1,
+            "@imgeditor": 1,
+            "@imgview": 1,
+            "@immediate": 1,
+            "@menu": 6,
+            "@menuitem": 16,
+            "@pane": 1,
+            "@postmessage": 2,
+            "@preferences": 1,
+            "@preview": 2,
+            "@session": 2,
+            "@tab": 4,
+            "@tree": 11,
+            "@undoManager": 2,
+            "@welcome": 1
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "installer": {
+        "json()": {}
+    },
+    "menus": {
+        "@minimized": false
+    },
+    "nak": {
+        "@installed": true
+    },
+    "openfiles": {
+        "@hidetree": false
+    },
+    "panecycle": {
+        "json()": [
+            "tab21"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "@active-right": "none",
+        "@width-left": 228,
+        "attributes": {
+            "@enabled": "true",
+            "@name": "attributes"
+        },
+        "collab": {
+            "@enabled": "true",
+            "@name": "collab"
+        },
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "controls": {
+            "@enabled": "true",
+            "@name": "controls"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": -10,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "~/.c9/plugins/plugin.attributes",
+                "~/.c9/plugins/plugin.controls",
+                "~/.c9/plugins/plugin.simple",
+                "!favorites",
+                "!fsroot",
+                "~/.npm/callsite",
+                "~/.npm/callsite/1.0.0",
+                "~/.npm/connect",
+                "~/.npm/connect/2.12.0",
+                "~/.npm/async",
+                "~/.npm/async/0.2.10",
+                "/scripts",
+                "/plugins",
+                "/build/standalone",
+                "/build/standalone/skin",
+                "/",
+                "/build/standalone/skin/default",
+                "~"
+            ]
+        },
+        "favorites": {
+            "json()": [
+                {
+                    "path": "~",
+                    "isFavorite": true,
+                    "isRootContext": true,
+                    "isFolder": true,
+                    "status": "loaded",
+                    "isOpen": true,
+                    "wasOpen": false,
+                    "className": ""
+                }
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "search-history": {
+        "replace": {
+            "json()": [
+                "#eeeeee"
+            ]
+        },
+        "search": {
+            "json()": [
+                "#e6e6e6",
+                ".panelsbar",
+                "background: #f1f1f1",
+                "#f1f1f1",
+                "chrome-background",
+                "menu-bar-background",
+                "@menu-bar-background",
+                "#f1f1f1",
+                "background: #f1f1f1",
+                "background: #f1f1f1;",
+                "c9-mbar-cont",
+                "theme",
+                "no setting",
+                "getDefaultSettings",
+                "hostname",
+                "getDefaultSettings",
+                "DEFAULT_SETTINGS",
+                "fav",
+                "about"
+            ]
+        },
+        "searchfiles": {
+            "json()": [
+                "log out",
+                "account",
+                "dashboard",
+                "f1f1f1",
+                ".c9-mbar-cont",
+                "c9-menu-bar",
+                "addItemByPath(\"视图",
+                "addItemByPath(\"工具",
+                "addItemByPath(\"运行",
+                "addItemByPath(\"前往",
+                "addItemByPath(\"视图",
+                "addItemByPath(\"查找",
+                "addItemByPath(\"编辑",
+                "addItemByPath(\"run",
+                "addItemByPath(\"运行",
+                "\"run",
+                "\"view",
+                "addItemByPath(\"view",
+                "addItemByPath(\"编辑",
+                "addItemByPath(\"查找",
+                "addItemByPath(\"视图",
+                "addItemByPath(\"前往",
+                "addItemByPath(\"运行",
+                "addItemByPath(\"工具",
+                "帮助",
+                "关于Gospel",
+                "Press Option-Shift-T to reopen a tab you closed.",
+                "addItemByPath(\"Cloud9",
+                "\"Cloud9\"",
+                "\"c9sdk\"",
+                "c9sdk"
+            ]
+        }
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab21",
+            "meta": {
+                "accessList": [
+                    "tab21"
+                ]
+            },
+            "name": "pane2",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab21",
+                    "path": "",
+                    "className": [
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1473920230220
+                        },
+                        "filter": true,
+                        "title": "xxx.js [设计]",
+                        "uie": {}
+                    },
+                    "editorType": "uie",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/plugins"
+        ]
+    }
+}
